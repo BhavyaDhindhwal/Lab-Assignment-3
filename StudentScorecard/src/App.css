@@ -1,0 +1,113 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background: linear-gradient(to right, #74ebd5, #9face6);
+  min-height: 100vh;
+}
+
+
+
+.header {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.controls {
+  margin: 10px;
+}
+
+.controls input {
+  padding: 8px;
+  margin-right: 10px;
+}
+
+.controls button {
+  padding: 8px 12px;
+  margin: 5px;
+  background: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.controls button:hover {
+  background: #0056b3;
+}
+
+.student-table {
+  width: 80%;
+  margin: auto;
+  border-collapse: collapse;
+}
+
+.student-table th,
+.student-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.pass {
+  color: green;
+  font-weight: bold;
+}
+
+.fail {
+  color: red;
+  font-weight: bold;
+}
+
+.top-scorer {
+  background-color: #ffeaa7; /* highlight */
+}
+
+.student-table button {
+  padding: 5px 10px;
+  background: crimson;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.student-table button:hover {
+  background: darkred;
+}
+
+.add-form {
+  margin-top: 20px;
+}
+
+.add-form input {
+  margin: 5px;
+  padding: 8px;
+}
+
+.add-form button {
+  padding: 8px 12px;
+  background: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.add-form button:hover {
+  background: #1e7e34;
+}
+
+.stats {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .student-table {
+    width: 100%;
+    font-size: 14px;
+  }
+  .controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
